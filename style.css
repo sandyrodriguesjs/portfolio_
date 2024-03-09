@@ -8,19 +8,38 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #FC819E;
     color:#FFF3C7;
     
 }
 
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FEC7B4;
+
+}
+
+
+
 .destaque-titulo{
     color: #FEC7B4;
 }
 
 .apresentacao{
-    margin: 10%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,3 +106,4 @@ body{
     font-size: 24px ;
     font-weight: 400;
 }
+
