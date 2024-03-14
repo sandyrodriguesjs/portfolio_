@@ -38,8 +38,6 @@ body{
     text-decoration: none;
 }
 
-
-
 .destaque-titulo{
     color:var(--cor-secundaria);
 }
@@ -119,3 +117,8 @@ body{
     font-weight: 400;
 }
 
+@media (max-width: 1200px){
+    .apresentacao{
+        flex-direction: column-reverse ;
+    }
+}
